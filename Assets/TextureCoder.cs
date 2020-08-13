@@ -52,7 +52,7 @@ public class TextureCoder : MonoBehaviour
                 
             }
         }
-        
+        Debug.Log(Application.streamingAssetsPath);
         StreamWriter sr = File.CreateText("lul.txt");
         //for(int i = arr.Length - 1; i >= 0; i--)
         //{

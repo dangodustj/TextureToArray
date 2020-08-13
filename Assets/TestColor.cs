@@ -14,10 +14,4 @@ public class TestColor : MonoBehaviour
         mat.color = color;
         rend.material = mat;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
